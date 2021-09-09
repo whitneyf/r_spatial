@@ -148,7 +148,6 @@ plot(r_mask, col = c("black","white"))
 
 # Save rasters ----
 
-# Base rasters (original data; untransformed)
 writeRaster(r_dhw4,
             here("data",
                  "noaa_dhw4.tif"),
