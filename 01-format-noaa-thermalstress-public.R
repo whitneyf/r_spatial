@@ -33,6 +33,7 @@ library(ncdf4)  # package for netcdf manipulation
 library(raster) # package for raster manipulation
 library(rgdal)  # package for geospatial analysis
 library(here)   # file management
+library(viridis) # plot colors
 
 
 # Load netCDF file for thermal stress ----
