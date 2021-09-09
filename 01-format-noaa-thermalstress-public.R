@@ -94,6 +94,9 @@ nc_close(nc_data)
 
 # Convert data to raster ----
 # crs = 4326 per info in variable 'crs' (EPSG:4326)
+# NOTE! Check the xmin, xmx, ymin, ymx values carefully for your application. 
+# This is what worked for me (max extent for x; min/max range for y), to ensure that 
+# The spatial resolution of the rasters remained 0.05 degrees.
 
 r_dhw4 <- raster(t(dhw4), 
                  xmn=-180, xmx=180, ymn=-35.3,ymx = 34.2,
