@@ -1,4 +1,4 @@
-#--- 01-format-noaa-thermalstress.R --------------#
+#--- 01-format-noaa-thermalstress-public.R --------------#
 # This file loads data from NOAA Coral Reef Watch
 # documenting thermal history & stress
 #
